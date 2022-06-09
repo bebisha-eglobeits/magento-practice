@@ -1,0 +1,37 @@
+<?php
+ $collection = $block->getCollection();
+
+?>
+<table>
+
+        <tr>
+          
+            <th><?php echo __('Name') ?></th>
+            <th><?php echo __('Phone') ?></th>
+            <th><?php echo __('Hours') ?></th>
+            <th><?php echo __('Country') ?></th>
+            <th><?php echo __('Region') ?></th>
+            <th><?php echo __('Postcode') ?></th>
+            <th><?php echo __('City') ?></th>
+            <th><?php echo __('Street') ?></th>
+            <th><?php echo __('Vatno') ?></th>
+        </tr>
+       
+
+        <tr>
+         
+            <td ><?php echo $collection->getName();?></td>
+                <td><?php echo $collection->getPhone();?></td>
+                <td><?php echo $collection->getHours();?></td>
+                <td><?php echo $collection->getCountry() ;?></td>
+                <td><?php echo $collection->getRegion();?></td>
+                <td><?php echo $collection->getPostcode();?></td>
+                <td><?php echo $collection->getCity();?></td>
+                <td><?php echo $collection->getStreet() ;?></td>
+                <td><?php echo $collection->getVatno();?></td>
+            
+           
+        </tr>
+       
+    </table>
+
