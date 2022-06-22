@@ -344,6 +344,7 @@ return [
         'Magento_WishlistGraphQl' => 1,
         'Magento_WishlistSampleData' => 1,
         'Egits_CmsBlock' => 1,
+        'Egits_CmsPage' => 1,
         'Egits_ShowData' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
