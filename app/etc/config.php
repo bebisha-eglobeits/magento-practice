@@ -343,6 +343,7 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
         'Magento_WishlistSampleData' => 1,
+        'Egits_CategoryAttribute' => 1,
         'Egits_CmsBlock' => 1,
         'Egits_CmsPage' => 1,
         'Egits_ProductAttribute' => 1,
